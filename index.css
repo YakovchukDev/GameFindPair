@@ -1,0 +1,36 @@
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#play{
+    height: 30px;
+    width: 150px;
+}
+#blockCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 280px;
+    margin: 20px;
+    border-radius: 15px;
+}
+hr{
+    margin-bottom: 10px;
+}
+#WinMessage{
+    visibility: hidden;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    background-color: red;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
